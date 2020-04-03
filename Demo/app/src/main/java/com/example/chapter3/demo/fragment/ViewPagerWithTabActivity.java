@@ -24,7 +24,6 @@ public class ViewPagerWithTabActivity extends AppCompatActivity {
             public Fragment getItem(int i) {
                 return new HelloFragment();
             }
-
             @Override
             public int getCount() {
                 return PAGE_COUNT;
